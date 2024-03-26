@@ -12,18 +12,16 @@ Simplify the process of compressing images with TinyPNG directly from Nautilus f
 
 https://github.com/saadh393/TinyPNG-x-Nautilus/assets/22261152/18abaf70-0539-4c3a-bb93-49ce3993fa5a
 
-
-
 Select Images from your Nautilus File Explorer, Right click > Scripts > tinyPNG
 
 ### 🚀 How to Install
 
 #### Recommended Step
 
-Run this Command on Browser
+Run this Command on your Terminal
 
 ```bash
-git clone git@github.com:saadh393/TinyPNG-x-Nautilus.git ${XDG_CONFIG_HOME:-$HOME/.local/share/nautilus/scripts/} && cd {XDG_CONFIG_HOME:-$HOME/.local/share/nautilus/scripts/} && chmod -x tinypng.sh
+git clone git@github.com:saadh393/TinyPNG-x-Nautilus.git "${XDG_CONFIG_HOME:-$HOME}"/tinypng && cd $HOME/tinypng && mv $HOME/tinypng/tinypng.sh $HOME/.local/share/nautilus/scripts/TinyPNG.sh && chmod +x $HOME/.local/share/nautilus/scripts/TinyPNG.sh && rm -rf $HOME/tinypng
 ```
 
 #### Manual Way
