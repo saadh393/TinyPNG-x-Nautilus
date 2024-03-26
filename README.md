@@ -10,6 +10,10 @@ Simplify the process of compressing images with TinyPNG directly from Nautilus f
 
 <!-- Video -->
 
+https://github.com/saadh393/TinyPNG-x-Nautilus/assets/22261152/18abaf70-0539-4c3a-bb93-49ce3993fa5a
+
+
+
 Select Images from your Nautilus File Explorer, Right click > Scripts > tinyPNG
 
 ### 🚀 How to Install
