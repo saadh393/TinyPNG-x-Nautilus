@@ -19,7 +19,7 @@ Select Images from your Nautilus File Explorer, Right click > Scripts > tinyPNG
 Run this Command on Browser
 
 ```bash
-git clone git@github.com:saadh393/TinyPNG-x-Nautilus.git ${XDG_CONFIG_HOME:-$HOME/.local/share/nautilus/scripts/} && chmod -x tinypng.sh
+git clone git@github.com:saadh393/TinyPNG-x-Nautilus.git ${XDG_CONFIG_HOME:-$HOME/.local/share/nautilus/scripts/} && cd {XDG_CONFIG_HOME:-$HOME/.local/share/nautilus/scripts/} && chmod -x tinypng.sh
 ```
 
 #### Manual Way
